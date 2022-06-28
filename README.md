@@ -1,2 +1,2 @@
 # React Course Exercises
- React exercises 
+ React exercises, they are in the master file. : )
