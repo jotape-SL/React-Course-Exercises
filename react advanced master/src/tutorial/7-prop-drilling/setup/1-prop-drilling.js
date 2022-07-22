@@ -7,7 +7,7 @@ import { data } from '../../../data';
 const PropDrilling = () => {
   const [people, setPeople] = useState(data);
   const removePerson = (id) => {
-    return people.filter((person) => person.id !== id);
+    return setPeople(people.filter((person) => person.id !== id));
   };
   return (
     <section>
