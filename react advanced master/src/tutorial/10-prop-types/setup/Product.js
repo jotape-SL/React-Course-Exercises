@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import defaultImage from '../../../assets/default-image.jpeg';
 
 const Product = ({ image, name, price }) => {
+  const url = image && image.url;
   return (
     <article className='product'>
-      {/* <h4>singe product</h4> */}
-      <img src={image.url} alt={name} />
+      <img src={url || defaultImage} alt={name} />
       <h4>{name}</h4>
       <p>${price}</p>
     </article>
