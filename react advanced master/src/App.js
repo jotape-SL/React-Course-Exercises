@@ -1,5 +1,5 @@
 import React from 'react';
-import Seput from './tutorial/10-prop-types/setup';
+import Seput from './tutorial/11-react-router/setup';
 
 function App() {
   return (
