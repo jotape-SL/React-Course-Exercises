@@ -12,6 +12,8 @@ import Navbar from './Navbar';
 const ReactRouterSetup = () => {
   return (
     <Router>
+      {/* with switch component, only the forst compoenets that match are displayed  */}
+      <Navbar />
       <Switch>
         <Route exact path='/'>
           <Home />
